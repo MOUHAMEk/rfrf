@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MArisk - Page d'accueil</title>
+    <!-- Lien vers FontAwesome pour utiliser des icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Style global */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Fond gris clair */
+        }
+
+        /* En-tête (Header) */
+        header {
+            background-color: #2609cd; /* Vert élégant */
+            color: white; /* Texte blanc */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 24px;
+        }
+
+        /* Corps principal (Body) */
+        main {
+            padding: 40px;
+            text-align: center;
+            background-color: #ddd; /* Gris clair */
+        }
+
+        .welcome-box {
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            width: 60%;
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            text-transform: uppercase;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #E64A19;
+        }
+
+        /* Pied de page (Footer) */
+        footer {
+            background-color: #333; /* Couleur sombre */
+            color: white; /* Texte blanc */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact {
+            display: block; /* Disposition en bloc pour alignement vertical */
+            margin: 0 auto;
+            font-size: 18px; /* Taille des textes */
+            line-height: 2; /* Espacement entre les lignes */
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center; /* Aligner les icônes avec le texte */
+        }
+
+        .contact-item i {
+            margin-right: 10px; /* Espace entre l'icône et le texte */
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-item a:hover {
+            color: #FFD700; /* Jaune doré au survol */
+        }
+
+        .app-name {
+            font-size: 32px;
+            font-family: 'Pacifico', cursive;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- En-tête -->
+<header>
+    <div>MArisk</div>
+    <div>Bienvenue</div>
+</header>
+
+<!-- Corps principal -->
+<main>
+    <div class="welcome-box">
+        <h1>Bienvenue chez Interface responsable</h1>
+    </div>
+    <div class="welcome-box">
+        <p>cliquer sur lancer une action pour permet aux responsables de connaitre ce qui ce passe ou siganler un risque pour ke4a</p>
+        <style>
+            p{
+                font-family: 'Pacifico', cursive;
+            }
+        </style>
+    </div>
+
+    <div class="buttons">
+        <button class="button" onclick="window.location.href='https://mouhamek.github.io/fin/'">voir les risques siganles</button>
+        <button class="button" onclick="window.location.href='https://mouhamek.github.io/eueue/'">voir les actions lances pour toi</button>
+    </div>
+</main>
+
+<!-- Pied de page (Footer) -->
+<footer>
+    <div class="contact">
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:contact@marisk.com">Email</a>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/1234567890">WhatsApp</a>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="app-name">MArisk</div> <!-- Nom de l'application -->
+</footer>
+
+</body>
+</html>
